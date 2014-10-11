@@ -1,0 +1,4 @@
+Latextemplate
+=============
+
+My standard Latextemplate
