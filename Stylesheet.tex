@@ -40,7 +40,7 @@ top=2.5cm, bottom=2.5cm]{geometry}
      
     \thispagestyle{empty}		% ohne Seitenzahl
     
-    \include{vorwort} 			% Abstract
+    \include{./Content/vorwort} 			% Abstract
     \thispagestyle{empty}		% ohne Seitenzahl
 	
     
@@ -54,7 +54,7 @@ top=2.5cm, bottom=2.5cm]{geometry}
 	\pagestyle{plain}			% ohne Kopfzeile
 	
 	
-    \input{text}
+    \input{./Content/text}
     
     
 
@@ -65,9 +65,9 @@ top=2.5cm, bottom=2.5cm]{geometry}
     
 	\renewcommand{\thesection}{Anhang \arabic{section}:}
 	
-   	\input{anhang}
-   	\input{quellen}
-   	\input{begriffe}
+   	\input{./Content/anhang}
+   	\input{./Content/quellen}
+   	\input{./Content/begriffe}
    	
    	
     % deutsche Bibliographie
